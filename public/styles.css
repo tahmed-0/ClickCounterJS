@@ -1,0 +1,48 @@
+body {
+    background-color:rgb(129, 173, 78);
+}
+
+.container {
+    background-color: rgba(252, 238, 238, 0.973);
+    text-align:center;
+    width: 500px;
+    height: 350px;
+    border-style: dashed;
+    border-color: rgb(234, 49, 49);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+button.blue {
+    background-color: rgb(13, 143, 224);
+   
+   
+}
+
+button.red {
+
+    background-color:rgb(234, 49, 49);
+
+
+}
+
+button {
+    
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    border-color: black;
+   
+    
+   
+}
+
+button:hover {
+    border-color: rgb(141, 144, 138);
+}
